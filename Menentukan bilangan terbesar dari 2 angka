@@ -1,0 +1,11 @@
+angka1 = float(input("Masukan angka pertama: "))
+angka2 = float(input("Masukan angka kedua: "))
+
+if angka1 > angka2:
+    terbesar = angka1
+elif angka2 > angka1:
+    terbesar = angka2
+else:
+    terbesar = "Kedua angka sama besar"
+
+print(f"Angka terbesar adalah: {terbesar}")
