@@ -1,0 +1,7 @@
+nilai1 = float(input("Masukan nilai pertama: "))
+nilai2 = float(input("Masukan nilai kedua: "))
+nilai3 = float(input("Masukan nilai ketiga: "))
+
+rata_rata = (nilai1 + nilai2 + nilai3) / 3
+
+print(f"Rata-rata nilainya adalah: {rata_rata}")
